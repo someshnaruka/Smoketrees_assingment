@@ -54,6 +54,13 @@ Start server:
 
 
 
+## Screenshots
+
+![App Screenshot](https://res.cloudinary.com/dq7ld5q65/image/upload/v1694070046/user_vzh8yh.png)
+![App Screenshot](https://res.cloudinary.com/dq7ld5q65/image/upload/v1694070046/address_nvyc5j.png)
+
+
+
 ## Contributing
 
 Contributions are always welcome!
