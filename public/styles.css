@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    position: relative;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.main{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert-success{
+    width: 75%;
+    background-color: lightgreen;
+    color: black;
+    position: absolute;
+    top: 10%;
+    height: 40px;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.alert-error{
+  width: 75%;
+    background-color: lightcoral;
+    color: black;
+    position: absolute;
+    top: 10%;
+    height: 40px;
+    font-size: 2rem;
+    padding: 5px;
+}
+.form-box{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+input, label {
+   margin: 10px 5px;
+   border-radius: 5px;
+   border-width: 1px;
+
+  }
+label{
+    font-size: 2rem;
+}
+  
+  .form-group {
+   
+    width: 100%;
+  }
+
+  
+  .form-control {
+    float: left;
+    padding: 10px;
+    font-size:1.5rem;
+    border-width: 1px;
+  }
+  .btn-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+   
+  }
+  #inputName
+  {
+    width: 100%;
+  }
+  
+  #inputStreet {
+    width: 100%;
+  }
+  
+  #inputCity {
+    width: 45%;
+    
+  }
+  
+  #inputState {
+    width: 45%;
+  }
+  
+  #inputZip {
+    width: 28%;
+  }
+  
+
+  
+  #inputCountry {
+    width: 50%;
+  }
+  @media only screen and  (max-width: 980px) {
+    .alert-success{
+      width: 100%;
+      background-color: lightgreen;
+      color: black;
+      position: absolute;
+      top: 10%;
+      height: 80px;
+      font-size:4rem;
+      padding: 5px;
+  }
+  
+  .alert-error{
+    width: 100%;
+      background-color: lightcoral;
+      color: black;
+      position: absolute;
+      top: 10%;
+      height: 80px;
+      font-size: 4rem;
+      padding: 5px;
+  }
+  .form-box{
+      width: 100%;
+      height: 50%;
+      border-radius: 10px;
+      box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .form{
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      width: 90%;
+  }
+  input, label {
+     margin: 20px 10px;
+     border-radius: 5px;
+     border-width: 1px;
+  
+    }
+  label{
+      font-size: 4rem;
+  }
+    
+    .form-group {
+     
+      width: 100%;
+    }
+  
+    
+    .form-control {
+      float: left;
+      padding: 10px;
+      font-size:3rem;
+      border-width: 2px;
+    }
+    .btn-box{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn{
+      padding: 10px;
+      margin-top: 10%;
+      font-size: 4rem;
+      border-radius: 5px;
+      border-width: 1px;
+      cursor: pointer;
+  
+     
+    }
+    #inputName
+    {
+      width: 100%;
+    }
+    
+    #inputStreet {
+      width: 100%;
+    }
+    
+    #inputCity {
+      width: 100%;
+      
+    }
+    
+    #inputState {
+      width: 100%;
+    }
+    
+    #inputZip {
+      width: 100%;
+    }
+    #inputCountry{
+      width: 100%;
+    }
+  }

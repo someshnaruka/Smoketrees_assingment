@@ -1,0 +1,71 @@
+<link href="styles.css" rel="stylesheet" type="text/css" />
+
+<div class="main">
+    <% if(message.success) { %>
+        <div class="alert-success">
+            <%=message.success%>
+          </div>
+          <%} %>
+          <% if(message.error) { %>
+            <div class="alert-error">
+                <%=message.error%>
+              </div>
+              <%} %>
+  <div class="form-box">
+    
+    <form action="/submit" method="post" class="form">
+      <label class="label">Name</label>
+      <input type="text" class="form-control" id="inputName" name="username"/>
+      <div class="form-group">
+        <label class="label">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Street"
+          name="street"
+          id="inputStreet"
+          required
+        />
+        <input
+          type="city"
+          class="form-control"
+          name="city"
+          id="inputCity"
+          placeholder="City"
+          required
+        />
+
+        <input
+          type="state"
+          class="form-control"
+          name="state"
+          id="inputState"
+          placeholder="State"
+          required
+        />
+
+        <input
+          type="zip"
+          class="form-control"
+          id="inputZip"
+          name="zipcode"
+          placeholder="Zip"
+          required
+        />
+
+        <input
+          type="country"
+          class="form-control"
+          id="inputCountry"
+          name="country"
+          placeholder="Country"
+          required
+        />
+    </div>
+    <div class="btn-box"> <button type="submit" class="btn">Submit</button></div>
+   
+    </form>
+ 
+  </div>
+ 
+</div>
